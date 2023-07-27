@@ -1,0 +1,210 @@
+.header {
+    background-color: white;
+    position: fixed; /* ヘッダーを固定する */
+    width: 100%;
+    
+}
+.header div {
+    display:flex;
+    gap: 20px;
+    color: #9E8E6D;
+}
+
+
+.main {
+    color: #CBB78E;
+    background-color: #EBEBE6;
+    height: 2200px;
+    
+}
+
+.title{
+
+    padding: 10px;
+}
+.title-content{
+    
+    margin-left: 0px;
+}
+.title_rurubu_up {
+    font-size: 25px;
+    margin: 0px;
+    width: 360px;
+    color: #9e8e6d;
+    background-color: #EBEBE6;
+    margin: 0px;
+    border-bottom: 1px  solid #9E8E6D;
+    padding-bottom: 4px;
+}
+.title_rurubu_down {
+    padding-top: 20px;
+}
+
+.title p {
+    color: #9E8E6D;
+    background-color: #EBEBE6;
+    margin: 0px;
+}
+
+.concept{
+    padding-top: 30px;
+    font-size: 15px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.concept-word{
+    margin: 0px;
+
+}
+
+
+.rurubu_pic {
+    padding-top: 40px;
+   
+
+    margin-bottom: 30px;
+    width: 328px;
+    height: 205px;
+    text-align: center;
+    
+    background-color: #EBEBE6;
+    
+}
+.rurubu {
+    background-color: #EBEBE6;
+    text-align: center;
+}
+
+.XD{
+    width: 30px;
+    height: 30px;
+}
+
+.app {
+    display: flex;
+}
+
+.setumei{
+    padding-left: 7px;
+    padding-bottom: 30px;
+}
+.setumei-bunsyou p {
+    margin: 0px;
+
+    font-size: 15px;
+}
+
+
+
+    
+    
+.process{
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+.process-title p{
+    margin: 0px;
+    width: 225px;
+    color: #9E8E6D;
+    font-size: 25px;
+    padding-left: 10px;
+    border-bottom: 1px  solid #9E8E6D;
+    padding-bottom: 4px;
+}
+.process-word {
+    
+    border-left: 1px  solid #ffffff;
+    padding-left: 4px;
+   
+}
+
+.gazou{
+    padding-left: 10px;
+}
+
+.gazou_word p {
+    margin: 0px;
+    width: 225px;
+    color: #9E8E6D;
+    font-size: 25px;
+    padding-left: 10px;
+    border-bottom: 1px  solid #9E8E6D;
+    padding-bottom: 4px;
+}
+
+.another_pic img {
+    padding-top: 20px;
+    width: 288px;
+    height: 180px;
+
+}
+
+.footer{
+    color: #9E8E6D;
+}
+
+.top-back {
+    text-align: center;
+    padding: 60px;
+}
+@media screen and (min-width: 768px) {
+    .nobreak {
+        display: none;
+    }
+    
+    .rurubu_pic {
+        padding-top: 40px;
+        padding-left: 25px;
+    
+        margin-bottom: 30px;
+        width: 664px;
+        height: 415px;
+        text-align: center;
+        
+        background-color: #EBEBE6;
+        
+    }
+    .main {
+        color: #CBB78E;
+        background-color: #EBEBE6;
+        height: 1900px;
+        
+    }
+
+    .top-back {
+        text-align: center;
+        padding: 20px;
+    }
+    
+}
+@media screen and (min-width: 1440px) {
+    .rurubu_pic {
+        padding-top: 40px;
+        padding-left: 25px;
+    
+        margin-bottom: 30px;
+        width: 1068px;
+        height: 667px;
+        text-align: center;
+        
+        background-color: #EBEBE6;
+        
+    }
+    .main {
+        color: #CBB78E;
+        background-color: #EBEBE6;
+        height: 2000px;
+        
+    }
+    .concept{
+        padding-top: 50px;
+        font-size: 35px;
+        padding-left: 20px;
+    }
+    .top-back {
+        text-align: center;
+        padding: 20px;
+    }
+
+}

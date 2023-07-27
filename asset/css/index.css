@@ -1,0 +1,415 @@
+.header {
+    background-color: white;
+    position: fixed; /* ヘッダーを固定する */
+    width: 100%;
+}
+.header div {
+    display:flex;
+    gap: 20px;
+    color: #9E8E6D;
+}
+
+.main {
+    color: #9E8E6D;
+    background-color: #EBEBE6;
+    
+}
+
+.footer {
+    background-color: white;
+    color: #9E8E6D;
+    height: 60px;
+    font-size: 15px;
+}
+
+.footer h4 {
+    text-align: center;
+}
+.myname {
+    font-family: Telugu Sangam MN ;
+}
+.myname_career {
+    font-family: "MS Mincho";
+    }
+
+.sen{
+    background-color: #9E8E6D;
+    margin-left: 18px;
+    margin-top: -10px;
+}
+
+
+.top_name {
+    padding: 20px;              /* 余白指定 */
+    text-align:  center;        /* 中央寄せ */
+    height: 600px;              /* 高さ指定 */
+    
+}
+
+
+.name {
+    margin-top: 250px;
+    font-family: Telugu Sangam MN;
+}
+
+
+   /*プロフィールの欄*/
+
+.Profile {
+    height: 850px;              /* 高さ指定 */
+    margin-bottom: 70px;
+}
+
+.Profile_word {
+    font-size: 20px;
+    font-family: "MS Mincho";
+    margin-left: 22px;
+}
+
+.Profile_myname {
+    margin-left: 30px;
+    display: inline-block;
+    background-color:  #EBEBE6;    /* 背景色指定 */
+    height: 300px;              /* 高さ指定 */
+    border-right: 1px solid #9E8E6D;
+    padding-right: 4px;
+    width: 40%;
+}
+
+.myname_eigo {
+    padding: 20px;
+    background-color:  #EBEBE6;    /* 背景色指定 */
+    height: 50px;              /* 高さ指定 */
+    display: flex;
+   
+}
+.eigo {
+    width: 50%;
+    display: inline-block;      /* インラインブロック要素にする */
+    background-color:  #EBEBE6;    /* 背景色指定 */
+    padding:  20px;             /* 余白指定 */
+    height: 30px;              /* 高さ指定 */
+    text-align: center;
+}
+
+.myname_nihongo {
+    padding:  20px;             /* 余白指定 */
+    background-color:  #EBEBE6;    /* 背景色指定 */
+    height: 80px;              /* 高さ指定 */
+    display: flex;
+    font-size: 50px;
+    font-family: MS Mincho;
+    
+}
+.nihongo {
+    padding:  20px;             /* 余白指定 */
+  
+    display: inline-block;      /* インラインブロック要素にする */
+    background-color:  #EBEBE6;    /* 背景色指定 */
+    height: 50px;     /* 高さ指定 */
+    margin-right: 10px; 
+    margin-left: 10px;   
+    width: 50%;
+    text-align: center;
+}
+
+
+.name-career{
+    height: 500px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.name-career div{
+    display: flex;
+}
+
+.profile_career {
+    margin-top: 30px;
+    text-align:  center;        /* 中央寄せ */
+    font-family: MS Mincho;
+    margin-bottom: 30px;
+    display:flex;
+}
+
+
+
+.Career {
+   margin-left: 60px;
+    display: inline-block;
+    height: 250px;              /* 高さ指定 */
+    text-align:  center;        /* 中央寄せ */
+    padding: 0px;
+    background-color: none;
+}
+
+
+.career_1 div{
+   
+    margin: 20px;
+
+}
+.career_1 {
+    display:flex;
+}
+
+.career_2 div{
+   
+    margin: 20px;
+
+}
+.career_2 {
+    display:flex;
+}
+
+.career_3 div{
+   
+    margin: 20px;
+
+}
+.career_3 {
+    display:flex;
+}
+
+.skil {
+    text-align: center;
+   
+}
+
+.skil img {
+    width: 44%;
+}
+
+
+
+.Thema_word {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.Thema {
+    font-size: 36px;
+    text-align:  center;  
+    height: 60px;
+    font-family: MS Mincho;
+    margin-bottom: 40px;
+}
+.word {
+    font-size: 14px;
+    text-align:  center;  
+}
+
+
+
+
+
+.Content_word {
+    margin-left: 22px;
+}
+
+.Content_moji {
+    margin: 0;
+}
+.Content {
+
+    height: 800px;
+}
+.Content_word {
+    font-size: 20px;
+    font-family: "MS Mincho";
+}
+
+
+
+.content_title {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.content_box {
+    display: flex;
+   
+}
+
+/*コンテンツ１　るるぶ*/
+
+/*枠組み*/
+.content_1 {
+    height: 350px;
+    margin: center;
+}
+/*画像*/
+.content_1 img {
+    width: 350px;
+    height: 219px;
+}
+
+/*テキスト　名前*/
+.name_1 {
+    padding-top: 30px;
+    font-size: 25px;
+    font-family: MS Mincho;
+}
+/*テキスト　ジャンル*/
+.genre_1 {
+    font-size: 17px;
+    font-family: MS Mincho;
+    color: #9E8E6D;
+}
+
+/*コンテンツ２　アプリ調査*/
+
+/*枠組み*/
+.content_2 {
+    height: 300px;
+   
+    
+}
+
+/*画像*/
+.content_2 img {
+    width: 350px;
+    height: 219px;
+}
+
+/*テキスト　名前*/
+.name_2 {
+    padding-top: 30px;
+    font-size: 25px;
+    font-family: MS Mincho;
+}
+
+/*テキスト　ジャンル*/
+.genre_2 {
+    font-size: 17px;
+    font-family: MS Mincho;
+}
+
+
+
+
+
+.cotent_box{
+    display: flex;
+    flex-direction: row;
+}
+.content_box div {
+    margin-right: 15px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.nobreak{
+    display: none;
+}
+.Profile_word p {
+    border-bottom: 1px solid #9E8E6D;
+    padding-bottom: 4px;
+    width: 130px;
+    
+}
+
+.Content_word p {
+    border-bottom: 1px solid #9E8E6D;
+    padding-bottom: 4px;
+    width: 130px;
+}
+
+.back{
+    color: #9E8E6D;
+   
+    font-family: MS Mincho;
+    font-size: 15px;
+}
+
+.top-back {
+    text-align: center;
+    padding: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .Profile_myname {
+        margin-left: 30px;
+        display: inline-block;
+        background-color:  #EBEBE6;    /* 背景色指定 */
+        height: 300px;              /* 高さ指定 */
+        border-right: 0px;
+        padding-right: 0px;
+        width: 90%;
+    }
+    .skil img {
+        width: 60%;
+    }
+
+    
+
+}
+
+@media screen and (max-width: 390px) {
+    .nobreak{
+        display: block;
+    }
+    .content_box {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .content_box .contnet_1 {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .content_box .content_2 {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    
+    .profile_career {
+        flex-direction: column;
+    }
+    .skil, .Career {
+        width: 100%;
+    }
+    
+    .skil{
+        margin-top: 30px;
+    }
+    .Thema {
+        font-size: 21px;
+    }
+    .Profile_myname {
+        display: inline-block;
+        background-color:  #EBEBE6;    /* 背景色指定 */
+        height: 300px;              /* 高さ指定 */
+        border-right: 0px;
+        padding-right: 0px;
+        width: 100%;
+        margin: 0px
+    }
+    .myname_eigo{
+        margin: 20px;
+    }
+    .Career {
+    margin-left: 0px;
+    display: inline-block;
+    height: 250px;              /* 高さ指定 */
+    text-align:  center;        /* 中央寄せ */
+    padding: 0px;
+    background-color: none;
+    }
+    .myname_nihongo {
+        padding:  20px;             /* 余白指定 */
+        background-color:  #EBEBE6;    /* 背景色指定 */
+        height: 80px;              /* 高さ指定 */
+        display: flex;
+        font-size: 30px;
+        font-family: MS Mincho;
+        flex-direction: row;
+
+    }
+    .skil img {
+        width: 80%;
+    }
+
+}
+
+
